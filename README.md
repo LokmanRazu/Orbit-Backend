@@ -38,16 +38,12 @@ These instructions will get you a copy of the project up and running on your loc
    Create a `.env` file in the root of the project and add the following environment variables. Replace the placeholder values with your actual database credentials.
 
    ```env
- DB_USERNAME=root
-DB_PASSWORD=
-DB_DATABASE=ABtest
-DB_HOST=localhost
-DB_DATABASE_TEST=todos_test_db
-DB_DATABASE_PROD=todos_prod_db
-JWT_SECRET=your_jwt_secret
-
-
-PORT = 3001
+   DB_USERNAME=your_db_user
+   DB_PASSWORD=your_db_password
+   DB_DATABASE=your_db_name
+   DB_HOST=localhost
+   JWT_SECRET=your_super_secret_jwt_key
+   PORT=3001
    ```
 
 4. **Run database migrations:**
