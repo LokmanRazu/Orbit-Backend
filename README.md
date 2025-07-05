@@ -38,7 +38,7 @@ These instructions will get you a copy of the project up and running on your loc
    Create a `.env` file in the root of the project and add the following environment variables. Replace the placeholder values with your actual database credentials.
 
    ```env
-DB_USERNAME=root
+ DB_USERNAME=root
 DB_PASSWORD=
 DB_DATABASE=ABtest
 DB_HOST=localhost
